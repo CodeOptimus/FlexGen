@@ -7,36 +7,39 @@
     <title>FlexGen</title>
   </head>
   <body>
-    <header class="header">
-      <div class="logo-nav">
-        <div id="logo">
-          <div class="flex-gen">
-            <img src="./Assets/logo.png" alt="FlexGen logo" />
+    <header class="main-header">
+      <section class="header">
+        <div class="logo-nav">
+          <div id="logo">
+            <div class="flex-gen">
+              <img src="./Assets/logo.png" alt="FlexGen logo" />
+            </div>
+            <div>
+              <h2 id="logo-name">Flex<span class="logo-gen">Gen</span></h2>
+            </div>
           </div>
-          <div>
-            <h2 id="logo-name">Flex<span class="logo-gen">Gen</span></h2>
+          <div id="nav-items">
+            <nav class="nav">
+              <ul>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Schedule</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
-        <div id="nav-items">
-          <nav class="nav">
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Store</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
 
-      <div id="call-to-action">
-        <a href="#">Join our team</a>
-        <img src="./Assets/Vector.png" alt="vector arrow up" />
-      </div>
+        <div id="call-to-action">
+          <a href="#">Join our team</a>
+          <img src="./Assets/Vector.png" alt="vector arrow up" />
+        </div>
+      </section>
     </header>
 
     <!-- cards section -->
     <main>
+      <article class="main-content">
       <section id="card-1">
         <div class="part-1">
           <div class="twin-board">
@@ -74,7 +77,7 @@
 
           <h2 class="big-message">
             <span class="zero">o<div class="vertical-strike"></div></span>wn y<span class="zero">o<div class="vertical-strike"></div></span
-            >ur<br> strength,<br /><span class="zero">o<div class="vertical-strike"></div></span>wn y<span class="zero">o<div class="vertical-strike"></div></span>u
+            >ur<br>strength,<br /><span class="zero">o<div class="vertical-strike"></div></span>wn y<span class="zero">o<div class="vertical-strike"></div></span>u
           </h2>
         </div>
 
@@ -94,7 +97,6 @@
 
       <section id="card-2">
         <div class="model-man">
-          <!-- <img src="./Assets/guy.png" alt="" class="main-guy"> -->
           <img src="./Assets/Star 6.png" alt="star" class="star" />
           <h3>
             train on your <br />
@@ -120,22 +122,23 @@
             <div class="top-right">
               <div>
                 <h3>
-                  1234 Fitness ln <br />
+                  1234 Fitness ln<br />
                   brooklyn ny
                 </h3>
               </div>
-              <div>
+              <div class="location-con">
                 <img src="./Assets/location.png" alt="" />
               </div>
             </div>
           </div>
           <div class="bottom">
-            <h2>Contact us & rise <br />stronger</h2>
+            <h2>Contact us & rise<br />stronger</h2>
           </div>
         </div>
       </section>
 
       <section id="card-4">
+        <article>
         <div class="top-centered">
           <div class="review">
             <div class="review-figure">
@@ -152,16 +155,39 @@
           </div>
         </div>
         <div class="options">
-          <a href="#">Boxing ring</a>
-          <a href="#">basketball courts</a>
-          <a href="#"><img src="./Assets/lift.png" alt=""></a>
-          <a href="#">juice bar</a>
-          <a href="#">personal trainers</a>
-          <a href="#"><img src="./Assets/timer.png" alt="" /></a>
-          <a href="#">lookers</a>
-          <a href="#">free parking</a>
-        </div>
+          <section class="first-lane">
+            <div class="option">
+              Boxing ring
+            </div>
+            <div class="option">
+              basketball courts
+            </div>
+            <div class="option">
+              <img src="./Assets/lift.png" alt="">
+            </div>
+            <div class="option">
+              juice bar
+            </div>
+          </section>
+          
+          <section class="second-lane">
+          <div class="option">
+           personal trainers
+          </div>
+          <div class="option">
+            <img src="./Assets/timer.png" alt="" />
+          </div>
+          <div class="option">
+          lookers
+          </div>
+          <div class="option">
+            free parking
+          </div>
+          </section>
+       </div>
+      </article>
       </section>
+    </article>
     </main>
   </body>
 </html>
